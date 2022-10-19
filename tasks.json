@@ -23,8 +23,8 @@
         {
             "label": "launch-chrome",
             "type": "shell",
-            "command": "chrome.exe http://localhost:8000/",
-            "options": {
+            "command": "chrome.exe http://localhost:8000/", // or "command" : "open -a 'Google Chrome' http://localhost:8000" for Mac
+            "options": { // remove if using a Mac
                 "cwd": "C:\\Program Files (x86)\\Google\\Chrome\\Application"
             }
         },
